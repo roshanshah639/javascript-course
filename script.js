@@ -80,4 +80,43 @@ let gameCounter = 100;
 // console.log(undefineds==0);
 // console.log(undefineds>=0);
 
+// Data Types
+// Primitive Data Types
+  // String, Number, Boolean, Null, Undefined, Symbol, BigInt
+const score1 = 100; //Number
+const scorevalue = 100.30;
+const isLoggedIn1 = true; // boolean
+
+let userEmail; // undefined
+
+const id = Symbol('123'); // symbol
+const anotherId = Symbol('123'); // symbol
+// console.log(id === anotherId); // false
+
+const bigInt = 1234567890123456789012345678901234567890n; // bigint
+// console.log( bigInt);
+//Non Primitives/Refrenced Data Types
+ // Array, Object, Function
+ //Array
+ const heroes = ['Superman', 'Batman', 'Spiderman'];
+ const hero1 = heroes;
+ hero1.push('Hulk');
+//  console.log(heroes);
+//  console.log(hero1);
+
+ //Object
+ const employee = {
+     name: 'Roshan',
+     age: 25
+ }
+
+ // function
+ const myFunction = function (){
+     console.log('Hello World');
+ }
+//  myFunction();
+// console.log(typeof myFunction);
+
+
+
 
