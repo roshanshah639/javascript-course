@@ -86,3 +86,22 @@ const users=[
 
 // console.log(tinderUser.hasOwnProperty("email"));
 
+const course = {
+  name: "Javascript",
+  price: 100,
+  cousreInstructor: "Roshan",
+}
+
+// course.cousreInstructor;
+
+const {cousreInstructor: instructor} = course;
+// console.log(instructor);
+
+// const {name, price, cousreInstructor} = course;
+
+// {
+//   "name": "John",
+//   "coursename": "Javascript",
+//   "price": 100,
+// }
+
