@@ -57,24 +57,24 @@ const Obj2 = {
   3: "c",
   4: "d",
 };
-const obj4 ={
+const obj4 = {
   5: "e",
   6: "f",
-}
+};
 
-const obj3 = {...obj1, ...Obj2, ...obj4};
+const obj3 = { ...obj1, ...Obj2, ...obj4 };
 // const obj3 = Object.assign({}, obj1, Obj2, obj4);
 // console.log(obj3);
-const users=[
-    {
-       id: 1,
-       email: "9SsQV@example.com",
-    },
-   {
-       id: 2,
-       email: "1ghghg@example.com",
-   }
-]
+const users = [
+  {
+    id: 1,
+    email: "9SsQV@example.com",
+  },
+  {
+    id: 2,
+    email: "1ghghg@example.com",
+  },
+];
 
 // console.log(users[1].email);
 // console.log(tinderUser);
@@ -90,11 +90,11 @@ const course = {
   name: "Javascript",
   price: 100,
   cousreInstructor: "Roshan",
-}
+};
 
 // course.cousreInstructor;
 
-const {cousreInstructor: instructor} = course;
+const { cousreInstructor: instructor } = course;
 // console.log(instructor);
 
 // const {name, price, cousreInstructor} = course;
@@ -103,5 +103,32 @@ const {cousreInstructor: instructor} = course;
 //   "name": "John",
 //   "coursename": "Javascript",
 //   "price": 100,
+// }
+
+const myObject = {
+  js: "Javascript",
+  py: "Python",
+  rb: "Ruby",
+  php: "PHP",
+  cpp: "C++",
+  swift: "Swift",
+};
+for (const key in myObject) {
+// console.log(`${key} Shortcut is for ${myObject[key]}`);
+}
+
+const programming = ["js", "py", "rb", "php", "cpp", "swift"];
+for (const key in programming) {
+  // console.log(programming[key]);
+}
+
+// const map = new Map();
+// map.set("js", "Javascript");
+// map.set("py", "Python");
+// map.set("rb", "Ruby");
+// map.set("php", "PHP");
+
+// for (const key in map) {
+//   // console.log(key);
 // }
 
